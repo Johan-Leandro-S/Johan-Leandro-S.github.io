@@ -1,0 +1,37 @@
+.barra {
+  background-color: rgb(56, 163, 145);
+  height: 10px;
+}
+
+.titulos {
+  color: #18eb9e;
+  font-style: italic;
+}
+
+.subtitulos {
+  color: #11f541;
+}
+
+.contenedor {
+  background-color: #d1ecfa;
+}
+
+body {
+  background-color: #6bf594;
+}
+
+.fa-phone-alt {
+  color: #00ff6a;
+}
+
+.fa-envelope {
+  color: #ff0055b9;
+}
+
+.fa-map-marked-alt {
+  color: #eb1000e7;
+}
+
+li {
+  list-style-type: none;
+}
