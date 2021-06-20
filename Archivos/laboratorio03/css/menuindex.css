@@ -1,24 +1,25 @@
-body {
+body{
   margin: 0;
 }
 
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 15%;
   background-color: gainsboro;
-  position: fixed;
+  position: relative;
+  height: auto;
   overflow: auto;
-  border: 1px solid #555;
+  border: 1px solid black;
 }
-
-li {
+li{
   text-align: center;
-  border: 1px solid #555;
+  border: 1px solid;
 }
 
-li a {
+
+li a{
   display: block;
   color: black;
   padding: 8px 16px;
@@ -30,7 +31,7 @@ li a.activo{
   color: white;
 }
 
-li a:hover:not(.activo) {
-  background-color: #555;
+li a:hover:not(.activo){
+  background-color: brown;
   color: white;
 }

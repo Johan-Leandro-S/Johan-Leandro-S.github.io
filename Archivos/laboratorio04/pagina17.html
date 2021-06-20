@@ -87,9 +87,9 @@
         var txtDes=document.getElementById("txtDes");
         var txtSf=document.getElementById("txtSf");
         // //capturando el indice del control
-        //alert (cboArea. selectedIndex) ;
+        //alert (cboArea. selectedIndex);
         // //capturando el valor del control
-        //alert (cboArea. value ) ;
+        //alert (cboArea. value );
         //validando el ingreso de datos
         if(txtNh.value==""){
             alert("Ingrese el numero de horas");
@@ -98,7 +98,7 @@
             alert("Seleccione un area");
             cboArea.focus();
         }else if(rbA.checked==false && rbB.checked==false && rbC.checked==false && rbD.checked==false){
-            alert("seleccione una categorla");
+            alert("seleccione una categoria");
             rbA.focus();
         }else{
         //declarando e inicializando variables
@@ -136,7 +136,7 @@
         if(rbA.checked){
             bon=CalcularBonificacion("a",sb);
         }else if(rbB.checked){
-            bon=CalcularBonificacion("b",Sb);
+            bon=CalcularBonificacion("b",sb);
         }else if(rbC.checked){
             bon=CalcularBonificacion("c",sb);
         }else if(rbD.checked){
@@ -185,7 +185,7 @@
     <label for="rbB">B</label>
     <input type="radio" name="categoria" id="rbC">
     <label for="rbC">C</label>
-    <1nput type="radio" name="categoria" 1d="rbD">
+    <input type="radio" name="categoria" 1d="rbD">
     <label for="rbD">D</label>
     <br>
     <label for="txtBon">Bonificacion: </label>
@@ -204,5 +204,6 @@
     <input type="button" value="Calcular" id="btnCalcular" name="btnCalcular" onclick="Calcular()">
     <input type="reset" value="Limpiar" id="btnLimpiar" name="btnLimpiar">
     </form>
+    <a href="index.html">Regresar al menú</a>
 </body>
 </html>
