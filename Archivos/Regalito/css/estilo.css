@@ -1,0 +1,17 @@
+img {
+  border-style: none;
+}
+
+body {
+  background-color: pink;
+}
+
+.center{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.center2{
+  width: 1050px;
+  margin: 0 auto;
+}
