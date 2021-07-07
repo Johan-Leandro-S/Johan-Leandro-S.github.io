@@ -11,7 +11,7 @@ function Cargar(url,titulo,ancho,alto){
     window.open(url,titulo,"width="+ancho+", height="+alto+", left="+x+",top="+y+", scrollbars=No");
 }
 //llamamos a la funcion cargar
-window.onload=Cargar("/Archivos/Regalito/hola -w-.html","Ventana Emergente",400,400);
+window.onload=Cargar("/Archivos/Regalito/VentanitauWu.html","Ventana Emergente",400,400);
 window.onload=Cargar("/Archivos/Regalito/VentanitauWu2.html","Ventana Emergente 2",400,400);
 window.onload=Cargar("/Archivos/Regalito/VentanitauWu3.html","Ventana Emergente 3",400,400);
 window.onload=Cargar("/Archivos/Regalito/VentanitauWu4.html","Ventana Emergente 4",400,400);
